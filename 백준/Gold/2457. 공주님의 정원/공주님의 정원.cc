@@ -50,7 +50,7 @@ int main()
             idx++;
         }
         
-        if(!b || maxday <= today)
+        if(!b )
         {
             cout << 0;
             return 0;
