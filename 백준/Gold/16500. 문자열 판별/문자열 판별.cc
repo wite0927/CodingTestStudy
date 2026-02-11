@@ -38,12 +38,5 @@ int main()
         }
     }
 
-    if(dp[cnt])
-    {
-        cout << "1";
-    }
-    else
-    {
-        cout << "0";
-    }
+    cout << dp[cnt];
 }
